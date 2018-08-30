@@ -1,0 +1,15 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 110vh;
+  position: relative; 
+  botton: 10vh;
+  padding-bottom: 200px;
+}
+
+
+@media all and (max-width: 600px) {
+  .main-content {
+    padding-bottom: 45px;
+  }
+}

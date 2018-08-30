@@ -1,0 +1,68 @@
+/******************CONTACTS-EMAIL FORM********************/
+#formTop {
+  width: 600px;
+  padding: 100px 100px;
+  display: block;
+  margin: 20px 40px 0 40px;
+}
+
+#contact-form {
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.formInput {
+  padding-top: 40px;
+}
+
+#formSubmitButton {
+  border-style: solid;
+  border-color: rgb(116, 113, 113);
+  border-width: 2px;
+  border-radius: 8px;
+  justify-content: center;
+  width: 100px;
+  color: rgb(116, 113, 113);
+}
+
+#formSubmitButton:hover {
+  border-style: solid;
+  border-color: rgb(116, 113, 113);
+  background-color:rgb(116, 113, 113);
+  color: white;
+}
+
+
+/************************MEDIA Q********************************/
+@media all and (max-width: 600px) {
+  #formTop {
+      width: 300px;
+      padding: 0 0;
+      margin-top: 20px;
+    }
+
+    #contact-form {
+      margin-top: 50px;
+      margin-left: 0;
+      margin-right: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .formInput {
+      padding-top: 40px;
+    }
+
+    #formSubmitButton {
+      margin-top: 20px;
+      border-style: solid;
+      border-color: rgb(116, 113, 113);
+      border-width: 2px;
+      border-radius: 8px;
+      width: 100px;
+      color: pink;
+    } 
+}

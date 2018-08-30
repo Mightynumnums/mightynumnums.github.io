@@ -1,0 +1,108 @@
+/*******************RESUME PAGE***********************/
+
+ .myResume {
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ } 
+
+ .resume-tag {
+   padding: 5px;
+   width: 200px;
+   margin-top: 60px;
+   position: absolute;
+   font-size: 18px;
+  }
+  
+  h2.resume-tag{
+    margin-top: 0;
+    text-decoration: none;
+    background: -moz-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,1)), color-stop(100%, rgba(0,255,255,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* ie10+ */
+    background: linear-gradient(45deg, rgba(255,0,255,1) 0%, rgba(0,255,255,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#ff00ff',GradientType=1 ); /* ie6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      z-index: -1;
+ }
+ h4{
+   font-weight: 600;
+ }
+
+ .skills {
+   display: flex;
+   margin-top: 0x;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: 240px;
+   font-size: 16px;
+   border-left: 2px solid black;
+   text-align: left;
+ } 
+
+ .skills ul {
+   margin-top: 0;
+ }
+
+ .skills li {
+   padding:2px;
+ }
+
+ .work-header, .education-header {
+  margin: 0 20px 0 20px;
+ }
+
+ .work-exp, .education {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.work-description {
+  margin: 10px 20px 40px 20px;
+  font-size: 14px;
+}
+.work-description li {
+  list-style: inside;
+  font-size: 16px;
+}
+
+#break{
+  margin-top:30px;
+}
+
+
+
+@media all and (max-width: 600px) {
+  .myResume {
+    margin-top: 40px;
+  } 
+
+  .resume-tag {
+    width: 25%;
+    font-size: 14px;
+  }
+
+  .skills {
+    margin-left: 100px;
+    font-size: 13px
+  } 
+
+  .work, .educationDiv {
+    margin-top: 30px;
+  }
+
+  .work-description li {
+    list-style: inside;
+    font-size: 12px;
+  }
+
+  .educationDiv {
+    margin-bottom: 150px;  
+  }
+
+}

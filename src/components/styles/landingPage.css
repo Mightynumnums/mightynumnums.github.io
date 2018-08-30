@@ -1,0 +1,31 @@
+ /*******************LANDING PAGE**********************/
+ .landing {
+  height: 100vh;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 3em;
+  background: url('../../images/backLight.png')
+ }
+
+ #main {
+   font-size: .5em;
+   background: white;
+   border: 2px solid rgb(94, 91, 91);;
+   padding: 12px 15px;
+   border-radius: 8px;
+ }
+
+ #main:hover {
+  background:rgb(94, 91, 91);;
+  color: white;
+  border: 2px solid rgb(94, 91, 91);;
+  padding: 12px 15px;
+}
+
+
+
+@media all and (max-width: 600px) {
+  .landing {
+  padding-top: 75px;
+  }
+}
