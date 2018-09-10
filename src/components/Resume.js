@@ -40,8 +40,23 @@ const Resume = () => {
           <div className='skills work-exp'>
             <div className='work-header'>
               <h3>Fullstack Academy Of Code</h3>
+              <h5>Teaching Fellow at Fullstack Academy of Code</h5>
+              <h5>September 2o18 - Present</h5>
+            </div>
+            <ul className='work-description'>
+              <li>Mentored 30+ students by providing daily debugging assistance and weekly technical office hours</li>
+              <li>Conducted technical and programming interviews for prospective students</li>
+              <li>Assisted in code reviews</li>
+              <li>Delivered lectures on algorithms</li>
+              <li>Taught JavaScript to a class of 15+ students to prepare them for Bootcamp</li>
+            </ul>
+          </div>
+
+          <div className='skills work-exp'>
+            <div className='work-header'>
+              <h3>Fullstack Academy Of Code</h3>
               <h5>Teaching Fellow at Fullstack Academy of Code for Grace Hopper Program</h5>
-              <h5>June 2o18 - Present</h5>
+              <h5>June 2o18 - September 2018</h5>
             </div>
             <ul className='work-description'>
               <li>Mentored 30+ students by providing daily debugging assistance and weekly technical office hours</li>
