@@ -3,9 +3,20 @@
   flex-direction: column;
   min-height: 110vh;
   position: relative; 
-  botton: 10vh;
+  /* bottom: 10vh; */
   padding-bottom: 200px;
 }
+
+#backToTop {
+  color:rgb(114, 111, 111);
+  right: auto;
+}
+
+#arrowIcon {
+  height: 35px;
+  width: auto;
+}
+
 
 
 @media all and (max-width: 600px) {
