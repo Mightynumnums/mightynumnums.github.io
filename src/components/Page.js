@@ -8,9 +8,7 @@ import arrow from '../images/arrowUp.png'
 export default class Page extends React.Component {
   constructor() {
     super()
-    this.state = {
-      showUnder: 0,
-    }
+    this.state = {}
   }
 
   //use this to ensure that the page view always starts off at the top of the page
@@ -22,7 +20,7 @@ export default class Page extends React.Component {
       <div className="main-content">
         <Navbar />
         {this.props.children}
-        <ScrollToTop showUnder={100} duration={250} topPosition={0} style={{ transitionDuration: '.5s' }}>
+        <ScrollToTop showUnder={100} duration={100} topPosition={0} >
           <span id='backToTop'><img id='arrowIcon' src={arrow} alt='arrow' /></span>
         </ScrollToTop>
         <Footer />
