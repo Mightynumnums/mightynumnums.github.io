@@ -32,7 +32,7 @@ export default [
       github: 'GitHub',
       ghUrl: 'https://github.com/Mightynumnums/SashaTurrentine',
       website: 'Website',
-      webUrl: 'http://mightynumnums.github.io/SashaTurrentine/'
+      webUrl: 'https://mightynumnums.github.io/SashaTurrentine/'
     }
   },
   {
