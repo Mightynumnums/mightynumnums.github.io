@@ -101,7 +101,7 @@
 
 .projLinks a {
   margin: 5px;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   flex-wrap: nowrap;
   align-self: center;
@@ -126,6 +126,7 @@
   border-image: linear-gradient(10deg, rgb(149, 28, 153), rgb(69, 206, 194));
   border-image-slice: 1;
   }
+
 }
 
 
