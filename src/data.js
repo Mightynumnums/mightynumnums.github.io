@@ -1,7 +1,7 @@
  const data = {
     technologies: {
         section_name: 'Technologies',
-        skills: [
+        col_1: [
             'JavaScript',
             'Python',
             'Django',
@@ -9,6 +9,9 @@
             'Express',
             'Sequelize',
             'PostgreSQL',
+            'TypeScript'
+        ],
+        col_2 :[
             'Redux',
             'React.js',
             'React-Redux',
@@ -16,6 +19,9 @@
             'Wagtail',
             'Git',
             'GitHub',
+            'GitLab'
+        ],
+        col_3: [
             'HTML5',
             'CSS',
             'SCSS',
@@ -23,9 +29,9 @@
             'FlexBox',
             'GreenSock Library',
             'Adobe Illustrator',
-            'Adobe Photoshop',
+            'Adobe Photoshop'
         ]
-    }, //break it up into three sections
+    },
     work: {
         section_name: "Work Experience",
         jobs: [
@@ -35,10 +41,13 @@
                 dates: 'January 2o19 - November 2o19',
                 skills: [
                     'Worked on 3 unique projects with 3 different teams',
-                    'Built front-end components in Angular',
-                    'Helped other members of the team',
+                    'Built front-end components with Angular 6',
+                    'Worked with client facing Wagtail',
+                    'Helped other members of the team with front-end tasks',
                     'Reviewed Merge Requests',
                     'Attended meetings and daily stand-ups',
+                    'Built web application with accessibility in mind',
+                    'Contributed to open source projects',
                 ]
             },
             {
@@ -86,7 +95,7 @@
         section_name: 'Education',
         education: [
             {
-                name: 'Grace Hopper Program at Fullstack Academy of Code',
+                name: 'Grace Hopper Program',
                 degree: 'Fullstack JavaScript Developer',
                 dates: 'January 2o18 - May 2o18'
             },

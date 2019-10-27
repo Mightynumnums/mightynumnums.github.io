@@ -1,8 +1,9 @@
-import anbe from './images/anbeB.jpg'
-import sasha from './images/sashaT.jpg'
-import happybones from './images/hb.jpg'
-import donke from './images/Donke.png'
-
+import anbe from './images/anbeB.jpg';
+import sasha from './images/sashaT.jpg';
+import happybones from './images/hb.jpg';
+import donke from './images/Donke.png';
+import devaCurl from './images/devaCurl.png';
+import morningside from './images/morningside.png';
 
 export default [
   {
@@ -69,6 +70,32 @@ export default [
       video: 'https://www.youtube.com/embed/xlSb_pJ16g4'
     }
   },
-
-
+  {
+    description: `DevaCurl was a project built with the team at thelab.
+    It is built using Django and Wagtail to allow client the ease of modifying content, Angular, to make use of reusable components and SCSS for styling. This project involved over 20 people: from UX, design, project management and of course development. `,
+    image:
+    {
+      alt: 'DevaCurl Main Site',
+      src: devaCurl
+    },
+    links:
+    {
+      website: 'Website',
+      webUrl: 'https://www.devacurl.com/'
+    }
+  },
+  {
+    description: `30 Morningside was the first project I built when I joined thelab. Along with 2 other engineers we created a simple and beautiful website for a leasing company.
+    The website is built using HTML, SCSS, JavaScript, Python and Wagtail for client's ability to control their listings and content.`,
+    image:
+    {
+      alt: '30 Morningside DRive',
+      src: morningside
+    },
+    links:
+    {
+      website: 'Website',
+      webUrl: 'https://30morningsidedrive.com/'
+    }
+  }
 ]

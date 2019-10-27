@@ -19,9 +19,9 @@ export default class Page extends React.Component {
     return (
       <div className="main-content">
         <Navbar />
-        {this.props.children}
+        { this.props.children }
         <ScrollToTop showUnder={100} duration={100} topPosition={0} >
-          <span id='backToTop'><img id='arrowIcon' src={arrow} alt='arrow' /></span>
+          <span id='backToTop'><img id='arrowIcon' src={ arrow } alt='arrow' /></span>
         </ScrollToTop>
         <Footer />
       </div >
