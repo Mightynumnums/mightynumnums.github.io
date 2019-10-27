@@ -1,11 +1,14 @@
 /*******************RESUME PAGE***********************/
+h1 {
+  line-height: 32px;
+}
 
  .myResume {
    margin-top: 100px;
    display: flex;
    flex-direction: column;
    text-align: center;
- } 
+ }
 
  .resume-tag {
    padding: 5px;
@@ -14,7 +17,7 @@
    position: absolute;
    font-size: 18px;
   }
-  
+
   h2.resume-tag{
     margin-top: 0;
     text-decoration: none;
@@ -35,21 +38,21 @@
 
  .skills {
    display: flex;
-   margin-top: 0x;
+   margin-top: 0px;
    flex-direction: row;
    flex-wrap: wrap;
    margin-left: 240px;
    font-size: 16px;
    border-left: 2px solid black;
    text-align: left;
- } 
+ }
 
  .skills ul {
    margin-top: 0;
  }
 
  .skills li {
-   padding:2px;
+   padding: 2px;
  }
 
  .work-header, .education-header {
@@ -64,6 +67,7 @@
 
 .work-description {
   margin: 10px 20px 40px 20px;
+  padding-left: 5px;
   font-size: 14px;
 }
 .work-description li {
@@ -75,12 +79,10 @@
   margin-top:30px;
 }
 
-
-
 @media all and (max-width: 600px) {
   .myResume {
     margin-top: 40px;
-  } 
+  }
 
   .resume-tag {
     width: 25%;
@@ -90,10 +92,11 @@
   .skills {
     margin-left: 100px;
     font-size: 13px
-  } 
+  }
 
-  .work, .educationDiv {
-    margin-top: 30px;
+  .work,
+  .educationDiv {
+     margin-top: 30px;
   }
 
   .work-description li {
@@ -102,7 +105,7 @@
   }
 
   .educationDiv {
-    margin-bottom: 150px;  
+    margin-bottom: 150px;
   }
 
 }

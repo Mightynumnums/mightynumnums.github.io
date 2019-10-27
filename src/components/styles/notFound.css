@@ -1,16 +1,16 @@
 body {
-  color:rgb(36, 35, 35);
-  text-align: center;
+    background-color:#eaeaea;
+    text-align: center;
 }
 
 .notFoundPage {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 2em;
-  padding: 20px;
-  margin: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em;
+    padding: 20px;
+    margin: 20px;
 }
 
 .notFoundPage h1, h2, h3 {
@@ -18,16 +18,16 @@ body {
 }
 
 #code {
-  font-size: 3em;
-  color: rgb(233, 75, 75);
-  border: 6px solid rgb(233, 75, 75);
-  padding: 10px;
+    font-size: 3em;
+    color: rgb(233, 75, 75);
+    /* border: 6px solid rgb(233, 75, 75); */
+    padding: 10px;
 }
 
 .ghost {
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    margin:  20px auto 30px auto;
 }
 
 
@@ -35,18 +35,13 @@ body {
 @media all and (max-width: 600px) {
 
   .notFoundPage {
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-size: 1em;
-  }
-  
-  .notFoundPage h1, .notFoundPage h2, .notFoundPage h3 {
-    margin-top: 20px;
-  }
-  
-  #code {
-    font-size: 2em;
-    padding: 5px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-size: 1em;
   }
 
+  .notFoundPage h2,
+  .notFoundPage h3 {
+      margin-top: 20px;
+  }
 }

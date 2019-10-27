@@ -15,7 +15,7 @@ export default class Footer extends Component {
           <a href='https://github.com/Mightynumnums'><img src={github} className="logo" alt="logo" /></a>
           <a href='//www.linkedin.com/in/aleksandra-shineleva/'><img src={linked} className="logo" alt="logo" /></a>
         </div>
-        <p id='copy'>&copy;Aleks Shineleva | 2018</p>
+        <p id='copy'>&copy;Aleks Shineleva | 2019</p>
       </div>
     );
   }
