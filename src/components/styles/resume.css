@@ -15,7 +15,7 @@ h4 {
 }
 
 .resume-tag {
-    padding: 5px;
+    padding: 5px 0 5px 40px;
     width: 200px;
     margin-top: 60px;
     position: absolute;
@@ -92,7 +92,11 @@ h1.resume-tag {
 
 @media all and (max-width: 600px) {
     .myResume {
-        margin-top: 40px;
+        margin-top: 10px;
+    }
+
+    .resume-tag {
+        padding-left: 0;
     }
 
     h1.resume-tag {
@@ -123,16 +127,11 @@ h1.resume-tag {
         padding: 2px;
     }
 
-    .work,
-    .education {
-        margin-top: 30px;
-    }
-
     .work-description li {
         list-style: inside;
     }
 
     .education {
-        margin-bottom: 150px;
+        margin-bottom: 75px;
     }
 }

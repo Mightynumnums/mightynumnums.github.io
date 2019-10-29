@@ -58,7 +58,7 @@ const Resume = () => {
               <div className='education-header'>
               {
                 data.education.education.map((school) =>
-                  <div class="education-details">
+                  <div className="education-details">
                     <h2>{ school.name }</h2>
                     <h3>{ school.degree }</h3>
                     <h4 className="spacer">{ school.dates }</h4>
