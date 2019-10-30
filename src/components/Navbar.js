@@ -21,7 +21,7 @@ export default class Navbar extends React.Component {
         })
     }
 
-    componentWillMount () {
+    componentDidMount () {
         window.addEventListener('scroll', this.handleScroll);
     }
     componentWillUnmount () {

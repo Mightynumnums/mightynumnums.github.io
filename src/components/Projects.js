@@ -1,7 +1,7 @@
-import React from 'react'
-import Page from '../components/Page.js'
-import data from '../projectData.js'
-import './styles/projects.css'
+import React from 'react';
+import Page from '../components/Page.js';
+import data from '../projectData.js';
+import './styles/projects.css';
 
 export default class Projects extends React.Component {
     constructor() {
