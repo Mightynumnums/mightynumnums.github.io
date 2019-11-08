@@ -623,8 +623,6 @@ Then we can change `start` and `build` scripts to include the CSS preprocessor c
    "scripts": {
      "build-css": "node-sass-chokidar src/ -o src/",
      "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
--    "start": "react-scripts start",
--    "build": "react-scripts build",
 +    "start-js": "react-scripts start",
 +    "start": "npm-run-all -p watch-css start-js",
 +    "build-js": "react-scripts build",
@@ -2171,13 +2169,6 @@ yarn add gh-pages
 
 Add the following scripts in your `package.json`:
 
-```diff
-  "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-```
 
 The `predeploy` script will run automatically before `deploy` is run.
 
@@ -2186,12 +2177,11 @@ additional modifications:
 
 1. First, change your repository's source branch to be any branch other than **master**.
 1. Additionally, tweak your `package.json` scripts to push deployments to **master**:
-```diff
+
   "scripts": {
-    "predeploy": "npm run build",
--   "deploy": "gh-pages -d build",
-+   "deploy": "gh-pages -b master -d build",
-```
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b master -d build",
+
 
 #### Step 3: Deploy the site by running `npm run deploy`
 
