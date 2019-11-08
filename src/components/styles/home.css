@@ -1,65 +1,66 @@
 /***************** HOME **************/
-  .bio {
-  display: flex;
-  width: 75%;
-  padding: 20px;
-  text-align: left;
-  color: rgb(94, 91, 91);
-  justify-content: space-between;
-  margin: 100px auto;
-  background-color: rgb(240, 237, 234);
-  padding-bottom: 100px;
+
+h2 {
+    line-height: 1.25;
+}
+.bio {
+    display: flex;
+    width: 75%;
+    padding: 100px;
+    text-align: left;
+    color: rgb(94, 91, 91);
+    justify-content: space-between;
+    margin: 100px auto;
+    background-color: #fffefe;
+    padding-bottom: 100px;
 
 }
 
 #bioText {
-  flex-grow: 1;
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  padding: 30px;
-  padding-right: 50px;
+    flex-grow: 1;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    padding-right: 50px;
 }
 
 #profilePic {
-  width: 200px;
-  margin: 100px 20px 0 50px;
-  border-radius:50%;
-  -webkit-box-shadow: -1px 4px 11px -2px rgba(128,104,128,1);
-  -moz-box-shadow: -1px 4px 11px -2px rgba(128,104,128,1);
-  box-shadow: -1px 4px 11px -2px rgba(128,104,128,1);
+    width: 200px;
+    margin: 0 20px 0 50px;
+    border-radius:50%;
+    -webkit-box-shadow: -1px 4px 11px -2px rgba(128,104,128,1);
+    -moz-box-shadow: -1px 4px 11px -2px rgba(128,104,128,1);
+    box-shadow: -1px 4px 11px -2px rgba(128,104,128,1);
 }
-
 
 /************************MEDIA Q********************************/
 
+@media all and (max-width: 600px) {
+    .bio {
+            flex-direction:column;
+            width: 85%;
+            padding: 20px;
+            text-align: center;
+            display: block;
+            margin-top: 20px;
+    }
 
-@media all and (max-width: 600px) {  
-
-  .bio {
-    flex-direction:column;
-    width: 75%;
-    padding: 20px;
-    text-align: center;
-    color: rgb(94, 91, 91);
-    display: block;
-    margin-top: 20px;
-    background-color: white;
-  }
-  #profilePic {
-    margin: 50px auto 50px 0;
-  }
+    #profilePic {
+            margin: 50px auto 50px 0;
+    }
 }
 
 
-@media all and (max-width: 800px) {  
+@media all and (max-width: 800px) {
+    .bio {
+        padding-top: 65px;
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .bio{
-    flex-direction: column;
-    text-align: center;
-  } 
-  #profilePic {
-    margin: 20px auto 50px 0;
-  }
+    #profilePic {
+            margin: 20px auto 50px 0;
+    }
 }
