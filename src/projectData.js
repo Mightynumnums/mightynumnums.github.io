@@ -48,7 +48,7 @@ export default [
       github: 'GitHub',
       ghUrl: 'https://github.com/Mightynumnums/HB',
       website: 'Website',
-      webUrl: 'http://mightynumnums.github.io/HB/'
+      webUrl: 'https//mightynumnums.github.io/HB/'
     }
   },
   {
