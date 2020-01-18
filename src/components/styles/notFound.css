@@ -18,9 +18,9 @@ body {
 }
 
 #code {
-    font-size: 3em;
+    font-size: 4em;
     color: rgb(233, 75, 75);
-    padding: 10px;
+    padding: 100px;
 }
 
 .ghost {
@@ -28,7 +28,6 @@ body {
     width: 200px;
     margin:  20px auto 30px auto;
 }
-
 
 
 @media all and (max-width: 600px) {
